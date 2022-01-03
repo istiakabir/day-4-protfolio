@@ -54,7 +54,10 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow: 5px 10px 30px rgb(109, 109, 20)
+    box-shadow: 5px 10px 30px rgb(109, 109, 20);
+    border-left: 10px solid;
+    border-radius: 5px;
+   
 
 }
 
@@ -63,4 +66,26 @@ h1{
     background-repeat: no-repeat;
     background-position: 0px 160px;
     
+    
+}
+
+#full-dev-experice{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+    
+    
+}
+
+#baby-experice{
+    
+
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+footer p{
+    text-align: center;
 }
